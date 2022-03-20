@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./pokedexdiseño.css">
+</head>
+<body>
+    <section class="parte1">
+        <dir class="cir">
+        </dir>
+        <dir class="cir1"></dir>
+        <dir class="cir2"></dir>
+        <dir class="cir3"></dir>
+        <dir class="recblanco">
+        <img src="./pokebola.png" alt="Pokemon" id="pokeImg" class="imagen">
+        </dir>
+        <button class="cirnegro" onclick="fetchPokemon()">Buscar poke</button>
+        <dir class="botonrojo"></dir>
+        <dir class="botonazul"></dir>
+        <dir class="rectvert"></dir>
+        <dir class="recthor"></dir>
+        <input type="text" id="pokeName" name="pokeName" class="input1">
+
+    </section>
+
+    <section class="sec2">
+        <div class="recnegro">
+            <p class="tipo">Tipo: </p>
+            <p class="tipovalue" id="tipovalor">¿?</p>
+            <p class="habilidad1">Habilidad 1: </p>
+            <p class="habilidad1Value" id="habilidad1">¿?</p>
+            <p class="habilidad2">Habilidad 2: </p>
+            <p class="habilidad2Value" id="habilidad2">¿?</p>
+            <p class="hp">Hp</p>
+            <p class="hpvalue" id="pokehp">¿?</p>
+            <p class="attack">Attack</p>
+            <p class="attackValue" id="ataque">¿?</p>
+            <p class="defense">defense</p>
+            <p class="defenseValue" id="defensa">¿?</p>
+            <p class="Sattack">S_Attack</p>
+            <p class="SattackValue" id="Sataque">¿?</p>
+            <p class="Sdefense">S_Defense</p>
+            <p class="SdefenseValue" id="Sdefense">¿?</p>
+            <!--  <p>hp</p>
+            <p id="pokehp"></p>-->
+        </div>
+        <br>
+        <div class="recblack">
+            <p class="altura">Altura: </p>
+            <p class="alturaValue" id="altura">¿?</p>
+        </div>
+        <div class="recblack2">
+            <p class="peso">Peso: </p>
+            <p class="pesoValue" id="wei">¿?</p>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="./pokedexmotor.js"></script>
+</footer>
+</html>

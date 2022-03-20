@@ -1,0 +1,319 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pesoValue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  left: 55%;
+  top: -35%;
+}
+
+.peso {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  left: 5%;
+  top: 30%;
+}
+
+.recblack2 {
+  background-color: black;
+  color: yellow;
+  font-family: "Lucida Console", Courier, monospace;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: 55%;
+  top: 25.5%;
+}
+
+.alturaValue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  left: 55%;
+  top: -35%;
+}
+
+.altura {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  left: 5%;
+  top: 30%;
+}
+
+.recblack {
+  background-color: black;
+  color: yellow;
+  font-family: "Lucida Console", Courier, monospace;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: 10%;
+  top: 35%;
+}
+
+.SdefenseValue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  color: rgb(204, 7, 204);
+  top: 65%;
+  left: 81%;
+}
+
+.Sdefense {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  top: 80%;
+  left: 77%;
+}
+
+.SattackValue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  color: rgb(204, 7, 204);
+  top: 65%;
+  left: 59%;
+}
+
+.Sattack {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  top: 80%;
+  left: 55%;
+}
+
+.defenseValue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  color: rgb(204, 7, 204);
+  top: 65%;
+  left: 37%;
+}
+
+.defense {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  top: 80%;
+  left: 33%;
+}
+
+.attackValue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  color: rgb(204, 7, 204);
+  top: 65%;
+  left: 18%;
+}
+
+.attack {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+}
+
+.hpvalue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  color: rgb(204, 7, 204);
+  top: 65%;
+  left: 5%;
+}
+
+.hp {
+  font-family: "Lucida Console", Courier, monospace;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
+
+.habilidad2Value {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  top: -27%;
+  left: 30%;
+}
+
+.habilidad2 {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  top: -15%;
+  left: 5%;
+}
+
+.habilidad1Value {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  top: -17%;
+  left: 30%;
+}
+
+.habilidad1 {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  top: -5%;
+  left: 5%;
+}
+
+.tipovalue {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  top: -7%;
+  left: 17%;
+}
+
+.tipo {
+  font-family: "Lucida Console", Courier, monospace;
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.imagen {
+  width: 200px;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}
+
+.recnegro {
+  background-color: black;
+  color: yellow;
+  font-family: "Lucida Console", Courier, monospace;
+  height: 280px;
+  width: 500px;
+  position: relative;
+  left: 10%;
+  top: 20%;
+}
+
+.sec2 {
+  background-color: rgb(194, 9, 9);
+  height: 667px;
+  width: 600px;
+  position: absolute;
+  top: 15%;
+  left: 52%;
+}
+
+.input1 {
+  background-color: aliceblue;
+  font-size: large;
+  font-family: "Lucida Console", Times, serif;
+  color: black;
+  height: 90px;
+  width: 150px;
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+
+.recthor {
+  background-color: black;
+  height: 45px;
+  width: 137px;
+  position: absolute;
+  top: 93%;
+  left: 35.5%;
+}
+
+.rectvert {
+  background-color: black;
+  height: 150px;
+  width: 10px;
+  position: absolute;
+  top: 85%;
+  left: 40%;
+}
+
+.botonazul {
+  background-color: blue;
+  height: 30px;
+  width: 80px;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 35%;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  position: absolute;
+  top: 85%;
+  left: 25%;
+}
+
+.botonrojo {
+  background-color: red;
+  height: 30px;
+  width: 80px;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 35%;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+}
+
+.cirnegro {
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.recblanco {
+  background-color: rgb(221, 217, 217);
+  height: 350px;
+  width: 350px;
+  position: relative;
+  top: 7%;
+  left: 10%;
+}
+
+.cir3 {
+  background-color: yellow;
+  height: 30px;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  left: 22%;
+}
+
+.cir2 {
+  background-color: yellow;
+  height: 30px;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  left: 17%;
+}
+
+.cir1 {
+  background-color: red;
+  height: 30px;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  left: 12%;
+}
+
+.cir {
+  background-color: aqua;
+  height: 100px;
+  width: 75px;
+  border-radius: 50%;
+  position: relative;
+  top: 3%;
+  left: 3%;
+}
+
+.parte1 {
+  background-color: rgb(194, 9, 9);
+  height: 750px;
+  width: 700px;
+}
